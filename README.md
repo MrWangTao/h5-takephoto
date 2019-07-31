@@ -23,14 +23,14 @@ This is a function of calling mobile camera to take pictures
         
     - 安卓手机： 
     
-          在http环境下，在微信端打开，走catch方法，分别弹（NotSupportedError）
+         在http环境下，在微信端打开，走catch方法，分别弹（NotSupportedError）
           （only secure origins are allowed（see： https://goo.gl/YOZkNV））；
           
-          在https环境下，在微信端打开，直接弹是否想要访问麦克风，说明调起麦克风成功
+         在https环境下，在微信端打开，直接弹是否想要访问麦克风，说明调起麦克风成功
          
-          **在http环境下，在safari中打开，走catch方法，分别弹（PermissionDeniedError）（）；**
+         **在http环境下，在safari中打开，走catch方法，分别弹（PermissionDeniedError）（）；**
          
-          在https环境下，在safari中打开，直接弹是否想要访问麦克风，说明调起麦克风成功
+         在https环境下，在safari中打开，直接弹是否想要访问麦克风，说明调起麦克风成功
 
 * [Nginx反向代理https文档](https://github.com/MrWangTao/docs/blob/master/nginx.org)
 
