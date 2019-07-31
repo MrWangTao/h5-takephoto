@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta name="viewport"
+          content="width-device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no, minimal-ui">
+    <meta charset="UTF-8"/>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/vConsole/3.3.2/vconsole.min.js"></script>
+</head>
+
+<body>
+
+    <div id="camera" class="camera">
+        <div id="scan">
+            <div id="scanTop"></div>
+            <div class="outer-border">
+                <div id="videoShadow"></div>
+            </div>
+            <div id="scanBottom"></div>
+        </div>
+        <video id="video">Video stream not available.</video>
+    </div>
+    <div class="operationBtn">
+        <button id="open">打开摄像头</button>
+        <button id="close">关闭摄像头</button>
+        <button id="startbutton">拍照</button>
+        <button id="use">使用</button>
+        <button id="retry">重拍</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <div class="output" style="display: none;">
+        <img id="photo" alt="The screen capture will appear in this box.">
+    </div>
+    <link rel="stylesheet" href="../static/capture.css"/>
+    <script src="../static/capture.js"></script>
+
+</body>
+
+
+</html>

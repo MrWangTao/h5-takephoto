@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+.operationBtn {
+    text-align: center;
+}
+
+canvas {
+    margin-top: 10px;
+}
+
+div#videoShadow {
+    opacity: 0.5;
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    left: 0px;
+    /*background: -webkit-linear-gradient(left, rgba(200, 0, 0, 0), rgba(200, 0, 0, 0.3));*/
+    /*!* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(right, rgba(200, 0, 0, 0), rgba(200, 0, 0, 0.3));*/
+    /*!* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(right, rgba(200, 0, 0, 0), rgba(200, 0, 0, 0.3));*/
+    /*!* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(to right, black, white);*/
+    /* 标准的语法 */
+}
+
+.outer-border {
+    background-color: black;
+    background: linear-gradient(#ae0000, #ae0000) left top,
+                linear-gradient(#ae0000, #ae0000) left top,
+                linear-gradient(#ae0000, #ae0000) right top,
+                linear-gradient(#ae0000, #ae0000) right top,
+                linear-gradient(#ae0000, #ae0000) right bottom,
+                linear-gradient(#ae0000, #ae0000) right bottom,
+                linear-gradient(#ae0000, #ae0000) left bottom,
+                linear-gradient(#ae0000, #ae0000) left bottom;
+    background-repeat: no-repeat;
+    background-size: 2px 20px, 20px 2px;
+}
